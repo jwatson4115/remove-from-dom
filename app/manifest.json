@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Remove Element From Dom",
-  "description": "Easily remove elements from the current pages dom including tags, ids and classes.",
+  "description": "Easily remove elements from the current page's DOM including tags, ids and classes.",
   "version": "0.1",
 
   "permissions": [

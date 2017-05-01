@@ -1,7 +1,3 @@
-# ignore TypeScript and SASS files
-*.ts
-*.scss
-
 # ignore compiled js and css files in the app folder.
 app/*.js
 app/*.css
