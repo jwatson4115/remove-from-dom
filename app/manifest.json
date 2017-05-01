@@ -3,7 +3,7 @@
 
   "name": "Remove Element From Dom",
   "description": "Easily remove elements from the current page's DOM including tags, ids and classes.",
-  "version": "0.1",
+  "version": "1.0",
 
   "permissions": [
     "activeTab"

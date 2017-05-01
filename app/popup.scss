@@ -1,0 +1,42 @@
+﻿body {
+    display: inline-block;
+    overflow-x: hidden;
+    min-width: 275px;
+
+}
+
+.title {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+label {
+    font-size: 18px;
+}
+
+input[type="button"] {
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 8px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid #e7e7e7;
+
+    &:hover {
+        background-color: #e7e7e7;
+    }
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 6px 7px;
+    border: 2px solid #e7e7e7;
+    border-radius: 2px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
