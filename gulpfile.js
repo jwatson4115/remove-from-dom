@@ -20,7 +20,7 @@ gulp.task('sass', function(){
 
 gulp.task('typescript', function(){
   return gulp.src('app/**/*.ts')
-    .pipe(typescript())
+    .pipe(typescript({emitError: false}))
     .pipe(gulp.dest('app'));
 });
 
